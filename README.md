@@ -1,68 +1,82 @@
 # Development Workflow
 
-1. API: analyze
+1. API: install dependencies
+
+   ```sh
+    cd api
+    npm install
+   ```
+
+2. API: analyze
 
    ```sh
     cd api
     npx eslint .
    ```
 
-2. API: test
+3. API: test
 
    ```sh
     cd api
     npm test
    ```
 
-3. UI: analyze
+4. UI: install dependencies
+
+   ```sh
+   cd ui
+   npm install
+   ```
+
+5. UI: analyze
 
    ```sh
    cd ui
    npx eslint src/*.js
    ```
 
-4. UI: test
+6. UI: test
 
    ```sh
    cd ui
-   npm test
+   CI=true npm test
    ```
 
-5. UI: build
+7. UI: build
 
    ```sh
    cd ui
    docker build -t web:v0.0.1 .
    ```
 
-6. API: build
+8. API: build
 
    ```sh
    cd api
    docker build -t api:v0.0.1 .
    ```
 
-7. Start docker compose
+9. Start docker compose
 
    ```sh
    docker compose up -d
    ```
 
-8. Run API: acceptance test
+10. Run API: acceptance test
 
-   ```sh
-   cd atdd/api/
-   robot api.robot
-   ```
+    ```sh
+    cd atdd/api/
+    robot api.robot
+    ```
 
-9. Run UI: acceptance test
+11. Run UI: acceptance test
 
-   ```sh
-   cd atdd/web/
-   robot ui.robot
-   ```
+    ```sh
+    cd atdd/web/
+    robot ui.robot
+    ```
 
-10. Stop docker compose
+12. Stop docker compose
 
     ```sh
     docker compose down
