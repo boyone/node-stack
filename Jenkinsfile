@@ -27,7 +27,7 @@ pipeline {
 
         stage('ui: test'){
             steps {
-                sh 'cd ui && npm test'
+                sh 'cd ui && CI=true npm test'
             }
         }
 
