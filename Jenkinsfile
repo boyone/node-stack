@@ -25,19 +25,19 @@ pipeline {
             }
         }
 
-        stage('ui: test'){
+        stage('ui: unit test'){
             steps {
                 sh 'cd ui && CI=true npm test'
             }
         }
 
-        stage('ui: build'){
+        stage('ui: build docker'){
             steps {
                 sh 'cd ui && docker build -t web:v0.0.1 .'
             }
         }
 
-        stage('api: build') {
+        stage('api: build docker') {
             steps {
                 sh 'cd api && docker build -t api:v0.0.1 .'
             }
