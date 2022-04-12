@@ -1,6 +1,12 @@
 pipeline {
     agent any
     stages {
+        stage('api: install dependencies') {
+            steps {
+                sh 'cd api && npm install'
+            }
+        }
+
         stage('api: analyze') {
             steps {
                 sh 'cd api && npx eslint *.js'
@@ -10,6 +16,12 @@ pipeline {
         stage('api: test') {
             steps {
                 sh 'cd api && npm test'
+            }
+        }
+
+        stage('ui: install dependencies') {
+            steps {
+                sh 'cd ui && npm install'
             }
         }
 
