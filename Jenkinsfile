@@ -13,12 +13,6 @@ pipeline {
             }
         }
 
-        stage('api: test') {
-            steps {
-                sh 'cd api && npm test'
-            }
-        }
-
         stage('ui: install dependencies') {
             steps {
                 sh 'cd ui && npm install'
