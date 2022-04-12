@@ -61,4 +61,10 @@ pipeline {
             }
         }
     }
+    post { 
+    always { 
+      sh "docker compose down"
+    //   sh "docker volume prune -f"
+    }
+  }
 }
