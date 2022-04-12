@@ -14,7 +14,7 @@
     npx eslint .
    ```
 
-3. API: test
+3. API: unit test
 
    ```sh
     cd api
@@ -35,21 +35,21 @@
    npx eslint src/*.js
    ```
 
-6. UI: test
+6. UI: unit test
 
    ```sh
    cd ui
    CI=true npm test
    ```
 
-7. UI: build
+7. UI: build docker image
 
    ```sh
    cd ui
    docker build -t web:v0.0.1 .
    ```
 
-8. API: build
+8. API: build docker image
 
    ```sh
    cd api
