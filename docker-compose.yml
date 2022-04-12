@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  web:
+    image: web:v0.0.1
+    container_name: web
+    restart: always
+    build: 
+      context: ui
+    depends_on:
+      - api
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./caddy:/etc/caddy
+
+  api:
+    image: api:v0.0.1
+    container_name: api
+    restart: always
+    build:
+      context: api
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
