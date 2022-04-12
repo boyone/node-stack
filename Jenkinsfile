@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('api: analyze') {
             steps {
-                sh 'cd api && npx eslint .'
+                sh 'cd api && npx eslint *.js'
             }
         }
 
