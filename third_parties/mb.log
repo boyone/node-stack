@@ -1,0 +1,30 @@
+{"level":"info","message":"[mb:2525] mountebank v2.6.0 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2022-05-10T07:12:50.549Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2022-05-10T07:12:50.606Z"}
+{"level":"info","message":"[http:80] Open for business...","timestamp":"2022-05-10T07:12:50.625Z"}
+{"level":"info","message":"[http:80] ::1:58168 => GET /api/v1/greeting","timestamp":"2022-05-10T07:14:56.584Z"}
+{"level":"info","message":"[http:80] ::1:58169 => GET /favicon.ico","timestamp":"2022-05-10T07:14:56.714Z"}
+{"level":"info","message":"[http:80] no predicate match, using default response","timestamp":"2022-05-10T07:14:56.717Z"}
+{"level":"info","message":"[http:80] ::1:58182 => GET /api/v1/greeting","timestamp":"2022-05-10T07:14:58.857Z"}
+{"level":"info","message":"[http:80] ::1:58183 => GET /favicon.ico","timestamp":"2022-05-10T07:14:58.897Z"}
+{"level":"info","message":"[http:80] no predicate match, using default response","timestamp":"2022-05-10T07:14:58.900Z"}
+{"level":"info","message":"[http:80] ::1:58186 => GET /api/v1/greeting","timestamp":"2022-05-10T07:14:59.357Z"}
+{"level":"info","message":"[http:80] ::1:58187 => GET /favicon.ico","timestamp":"2022-05-10T07:14:59.381Z"}
+{"level":"info","message":"[http:80] no predicate match, using default response","timestamp":"2022-05-10T07:14:59.384Z"}
+{"level":"info","message":"[http:80] ::1:58188 => GET /api/v1/greeting","timestamp":"2022-05-10T07:14:59.525Z"}
+{"level":"info","message":"[http:80] ::1:58189 => GET /favicon.ico","timestamp":"2022-05-10T07:14:59.543Z"}
+{"level":"info","message":"[http:80] no predicate match, using default response","timestamp":"2022-05-10T07:14:59.546Z"}
+{"level":"info","message":"[http:80] ::1:58190 => GET /api/v1/greeting","timestamp":"2022-05-10T07:14:59.689Z"}
+{"level":"info","message":"[http:80] ::1:58191 => GET /favicon.ico","timestamp":"2022-05-10T07:14:59.709Z"}
+{"level":"info","message":"[http:80] no predicate match, using default response","timestamp":"2022-05-10T07:14:59.711Z"}
+{"level":"info","message":"[http:80] ::1:58642 => GET /api/v1/greeting","timestamp":"2022-05-10T07:16:18.132Z"}
+{"level":"info","message":"[http:80] ::1:58643 => GET /favicon.ico","timestamp":"2022-05-10T07:16:18.156Z"}
+{"level":"info","message":"[http:80] no predicate match, using default response","timestamp":"2022-05-10T07:16:18.158Z"}
+{"level":"info","message":"[http:80] ::1:58777 => GET /api/v1/greeting","timestamp":"2022-05-10T07:16:42.953Z"}
+{"level":"info","message":"[http:80] ::1:58792 => GET /api/v1/greeting","timestamp":"2022-05-10T07:16:44.852Z"}
+{"level":"info","message":"[http:80] ::1:58807 => GET /api/v1/greeting","timestamp":"2022-05-10T07:16:47.271Z"}
+{"level":"info","message":"[http:80] ::1:58974 => GET /api/v1/greeting","timestamp":"2022-05-10T07:17:16.714Z"}
+{"level":"info","message":"[http:80] ::1:58991 => GET /api/v1/greeting","timestamp":"2022-05-10T07:17:19.674Z"}
+{"level":"info","message":"[http:80] ::1:59000 => GET /api/v1/greeting","timestamp":"2022-05-10T07:17:20.946Z"}
+{"level":"info","message":"[http:80] ::1:59029 => GET /api/v1/greeting","timestamp":"2022-05-10T07:17:25.439Z"}
+{"level":"info","message":"[http:80] ::1:59052 => GET /api/v1/greeting","timestamp":"2022-05-10T07:17:30.046Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2022-05-10T07:17:39.326Z"}

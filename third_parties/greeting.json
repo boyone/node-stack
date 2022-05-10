@@ -1,0 +1,27 @@
+{
+  "port": 80,
+  "protocol": "http",
+  "allowCORS": true,
+  "stubs": [
+    {
+      "predicates": [
+        { "equals": { "method": "GET" } },
+        { "equals": { "path": "/api/v1/greeting" } }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Types": "application/json",
+              "Access-Control-Allow-Origin": "*"
+            },
+            "body": {
+              "message": "hello"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

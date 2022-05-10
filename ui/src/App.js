@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const endPoint = process.env.END_POINT || 'https://localhost/api/greeting';
+const endPoint = process.env.REACT_APP_END_POINT || 'https://localhost/api/v1/greeting';
 
 class App extends Component {
   greeting = {};

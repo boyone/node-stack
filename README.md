@@ -84,6 +84,29 @@
 
 ---
 
+## Frontend and Stub
+
+1. Start Stub
+
+   ```sh
+   cd third_parties
+   mb start --configfile greeting.json
+   ```
+
+2. Start Web
+
+   ```sh
+   npm run start-dev
+   ```
+
+   or
+
+   ```sh
+   REACT_APP_END_POINT=http://localhost/api/v1/greeting npm start
+   ```
+
+---
+
 ## Overview
 
 - System Overview
