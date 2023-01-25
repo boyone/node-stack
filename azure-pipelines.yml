@@ -12,6 +12,6 @@ pool:
 steps:
 - script: |
     cd ui
-    docker build -t ui .
+    time DOCKER_BUILDKIT=1 docker build -t ui .
   displayName: 'Docker Build Image UI'
 
