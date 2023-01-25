@@ -116,3 +116,9 @@
 - System Overview With Tests
 
 ![overview with tests](images/overview-with-tests.png)
+
+## วิธีการ clone
+
+   ```sh
+   git clone git@github.com:boyone/node-stack.git
+   ```
